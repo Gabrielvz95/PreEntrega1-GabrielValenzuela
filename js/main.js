@@ -1,4 +1,5 @@
-function resta(a, b){
+// Funcion de resta para determinar la edad 
+function resta(a, b){ 
     return a + b;
 }
 let fechaActual = 2022;
@@ -10,16 +11,16 @@ console.log("A continuacion te pediremos que respondas unas preguntas para evalu
 let fechaIngresada = prompt("Ingresar fecha de nacimiento: ")
 
 let edad = resta(fechaIngresada, fechaActual);
-
-if(edad >= 18){
+// comparando la edad minima con la calculada 
+if(edad >= 18){ 
     console.log("Edad aceptada")
     sueldo = prompt("Ingresa ingresos mensuales: ")
 
 }else{
     console.log("Para salicitar un prestamo tiene que ser mayor de edad")
 }
-
-while(sueldo <= 120.000){
+// El ciclo se repetira hasta que se alcanse el minimo de sueldo aceptado para el prestamo
+while(sueldo <= 120.000){ 
     alert("Ingresos demaciados bajos.")
     sueldo = prompt("Ingrese ganacias mensuales")
     
