@@ -1,3 +1,5 @@
+// Proyecto para solicitar un prestamo.
+
 // Funcion de resta para determinar la edad 
 function resta(a, b){ 
     return a + b;
